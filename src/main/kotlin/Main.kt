@@ -13,11 +13,11 @@ fun main(args: Array<String>) {
     }
 
     var filter1= list.filter {
-        it.contains("b" )
+        it.contains("B" )
     }
 
     var filter2= list.filter{
-        it.contains("m")
+        it.contains("M")
     }
     filter1.forEach(){
         println("The List of uppercase names: ${it.uppercase()}")
