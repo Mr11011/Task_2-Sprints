@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     }
 
     var filter1= list.filter {
-        it.contains("a" )
+        it.contains("b" )
     }
 
     var filter2= list.filter{
