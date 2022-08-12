@@ -22,14 +22,14 @@ fun main(args: Array<String>) {
     filter1.forEach(){
         println("The List of uppercase names: ${it.uppercase()}")
     }
-}
 
-//    filter2.forEach(){
-//
-//        println("The List of uppercase names: ${it.uppercase()}")}
-//
-//
-//    }
+
+    filter2.forEach(){
+
+        println("The List of uppercase names: ${it.uppercase()}")}
+
+
+    }
 
 
 
